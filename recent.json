@@ -1,0 +1,267 @@
+{
+    "type": "bundle",
+    "id": "bundle--a158b3ba-3f4e-437e-8c20-3737bcda5e37",
+    "objects": [
+        {
+            "modified": "2023-01-30T04:33:18.446Z",
+            "name": "collection_one",
+            "description": "",
+            "x_mitre_contents": [
+                {
+                    "object_ref": "attack-pattern--262d6a3c-3536-4990-943e-0f54ce12cf1b",
+                    "object_modified": "2023-01-30T04:29:46.702Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--f0497c04-f24a-4874-aec6-709ae54d2f07",
+                    "object_modified": "2023-01-30T04:28:39.094Z"
+                },
+                {
+                    "object_ref": "malware--2ff4c00f-d596-4b6b-b807-89b59a19fd49",
+                    "object_modified": "2023-01-30T04:31:48.280Z"
+                },
+                {
+                    "object_ref": "course-of-action--d0b7803f-2c78-4066-8c86-f01b63d3df64",
+                    "object_modified": "2023-01-30T04:30:59.560Z"
+                },
+                {
+                    "object_ref": "x-mitre-matrix--2777f33d-f876-4363-ab9f-4d71043374b5",
+                    "object_modified": "2023-01-30T04:29:02.320Z"
+                },
+                {
+                    "object_ref": "x-mitre-data-source--e3ee4e42-56ac-4251-b8b5-eb9cdf120f2d",
+                    "object_modified": "2023-01-30T04:30:32.112Z"
+                },
+                {
+                    "object_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+                    "object_modified": "2023-01-30T04:27:43.209Z"
+                }
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "0.1",
+            "type": "x-mitre-collection",
+            "spec_version": "2.1",
+            "id": "x-mitre-collection--9f5a9e8b-b475-41f9-aa42-bd39ad8ebead",
+            "created": "2023-01-30T04:33:18.446Z",
+            "revoked": false,
+            "external_references": [],
+            "object_marking_refs": [],
+            "x_mitre_domains": [],
+            "x_mitre_attack_spec_version": "3.0.0",
+            "created_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "x_mitre_modified_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db"
+        },
+        {
+            "modified": "2023-01-30T04:29:46.702Z",
+            "name": "technique_one",
+            "description": "",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "tactic_one"
+                }
+            ],
+            "x_mitre_detection": "",
+            "x_mitre_platforms": [],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "0.1",
+            "x_mitre_contributors": [],
+            "x_mitre_data_sources": [],
+            "x_mitre_system_requirements": [],
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--262d6a3c-3536-4990-943e-0f54ce12cf1b",
+            "created": "2023-01-30T04:29:46.702Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1001",
+                    "external_id": "T1001"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/103.html",
+                    "external_id": "CAPEC-103"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.0.0",
+            "created_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "x_mitre_modified_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db"
+        },
+        {
+            "modified": "2023-01-30T04:28:39.094Z",
+            "name": "tactic_one",
+            "description": "",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "0.1",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "tactic_one",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--f0497c04-f24a-4874-aec6-709ae54d2f07",
+            "created": "2023-01-30T04:28:39.094Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA1001",
+                    "external_id": "TA1001"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.0.0",
+            "created_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "x_mitre_modified_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db"
+        },
+        {
+            "modified": "2023-01-30T04:31:48.280Z",
+            "name": "malware_one",
+            "description": "",
+            "is_family": true,
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "0.1",
+            "x_mitre_contributors": [],
+            "x_mitre_aliases": [
+                "malware_one"
+            ],
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--2ff4c00f-d596-4b6b-b807-89b59a19fd49",
+            "created": "2023-01-30T04:31:48.280Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/software/S1001",
+                    "external_id": "S1001"
+                }
+            ],
+            "object_marking_refs": [],
+            "labels": [],
+            "x_mitre_attack_spec_version": "3.0.0",
+            "created_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "x_mitre_modified_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db"
+        },
+        {
+            "modified": "2023-01-30T04:30:59.560Z",
+            "name": "Mitigation_one",
+            "description": "",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "0.1",
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--d0b7803f-2c78-4066-8c86-f01b63d3df64",
+            "created": "2023-01-30T04:30:59.560Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/mitigations/M1001",
+                    "external_id": "M1001"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.0.0",
+            "created_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "x_mitre_modified_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db"
+        },
+        {
+            "modified": "2023-01-30T04:29:02.320Z",
+            "name": "matrix_one",
+            "description": "",
+            "tactic_refs": [
+                "x-mitre-tactic--f0497c04-f24a-4874-aec6-709ae54d2f07"
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "0.2",
+            "type": "x-mitre-matrix",
+            "spec_version": "2.1",
+            "id": "x-mitre-matrix--2777f33d-f876-4363-ab9f-4d71043374b5",
+            "created": "2023-01-30T04:28:14.891Z",
+            "created_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/matrices/M1001",
+                    "external_id": "M1001"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_domains": [],
+            "x_mitre_attack_spec_version": "3.0.0",
+            "x_mitre_modified_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db"
+        },
+        {
+            "modified": "2023-01-30T04:30:32.112Z",
+            "name": "data_source_one",
+            "description": "",
+            "x_mitre_platforms": [
+                "Linux",
+                "Windows",
+                "Containers"
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "0.1",
+            "x_mitre_contributors": [],
+            "x_mitre_collection_layers": [
+                "cloud",
+                "host"
+            ],
+            "type": "x-mitre-data-source",
+            "spec_version": "2.1",
+            "id": "x-mitre-data-source--e3ee4e42-56ac-4251-b8b5-eb9cdf120f2d",
+            "created": "2023-01-30T04:30:32.112Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/data-sources/DS1001",
+                    "external_id": "DS1001"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.0.0",
+            "created_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "x_mitre_modified_by_ref": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db"
+        },
+        {
+            "modified": "2023-01-30T04:27:43.209Z",
+            "name": "Placeholder Organization Identity",
+            "description": "This is a placeholder organization identity. Please edit it or replace it with another identity.",
+            "roles": [],
+            "identity_class": "organization",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "0.1",
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c6053630-8297-40c3-8a86-b28eac9eb4db",
+            "created": "2023-01-30T04:15:12.529Z",
+            "revoked": false,
+            "external_references": [],
+            "object_marking_refs": [],
+            "sectors": [],
+            "x_mitre_attack_spec_version": "3.0.0"
+        }
+    ]
+}
